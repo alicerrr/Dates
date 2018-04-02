@@ -2,7 +2,7 @@
  * The Dates class receives a day, month and year of a specific date and  
  * calculates the date after a given number of days.
  *****************************************************************************/
-package dates;
+
 import java.util.Scanner;
 public class Dates 
 {
@@ -133,6 +133,5 @@ public class Dates
         if(num>MAX_NUM) {
             System.out.println("The number of days must be between 1 to 10.");
         }
-        // SHAY: Correct
      } //main
 } // class
